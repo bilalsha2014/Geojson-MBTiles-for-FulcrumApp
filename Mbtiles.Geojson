@@ -1,0 +1,133 @@
+@font_reg: "Ubuntu Regular","Arial Regular","DejaVu Sans Book";
+@white: #F0F8FF; /* blue-tinted, for Antarctica */
+@red: #fdaf6b;
+@orange: #fdc663;
+@yellow: #fae364;
+@green: #d3e46f;
+@turquoise: #aadb78;
+@blue: #a3cec9;
+@purple: #ceb5cf;
+@pink: #f3c1d3;
+@f00: #f00;
+@black:#FF0000;
+
+
+
+
+
+#shaktiplots[zoom >= 15] {
+  text-face-name:@font_reg;
+  text-name:"[Id]";
+  text-fill:@black;
+  text-size: 9.5;
+  text-halo-fill: fadeout(white, 30%);
+  text-halo-radius: 2.5;
+  text-placement-type: simple;
+
+  text-dy: -13;
+  marker-width:3;
+  marker-fill:@red;
+  marker-line-color:#813;
+  marker-allow-overlap:true;
+}
+
+
+
+
+#2020shaktiblocks {
+  [WORKINGARE="210"] { 
+        
+    polygon-fill:@purple;
+    polygon-opacity:0.5;
+  line-color:@purple;
+  line-width:2;
+text-face-name:@font_reg;
+  text-name:"[BLOCKNUM]";
+  text-fill: #036;
+  text-size: 16;
+  text-halo-fill: fadeout(white, 30%);
+  text-halo-radius: 2.5;
+    
+  }
+  [WORKINGARE="120"] {
+ 
+    polygon-fill:@red;
+    line-color:@red;
+  line-width:2;
+    polygon-opacity:0.5;
+          text-face-name:@font_reg;
+  text-name:"[BLOCKNUM]";
+  text-fill:#036;
+  text-size: 16;
+  text-halo-fill: fadeout(white, 30%);
+  text-halo-radius: 2.5;
+   
+}
+  
+  [WORKINGARE="130"] {
+ 
+    polygon-fill:@pink;
+    line-color:@pink;
+  line-width:2;
+    polygon-opacity:0.5;
+          text-face-name:@font_reg;
+  text-name:"[BLOCKNUM]";
+  text-fill:#036;
+  text-size: 16;
+  text-halo-fill: fadeout(white, 30%);
+  text-halo-radius: 2.5;
+   
+}
+  
+  [WORKINGARE="230"] {
+ 
+    polygon-fill:@blue;
+    line-color:@blue;
+  line-width:2;
+    polygon-opacity:0.5;
+          text-face-name:@font_reg;
+  text-name:"[BLOCKNUM]";
+  text-fill:#036;
+  text-size: 16;
+  text-halo-fill: fadeout(white, 30%);
+  text-halo-radius: 2.5;
+   
+}
+  
+    [WORKINGARE="280"] {
+ 
+    polygon-fill:@green;
+    line-color:@green;
+  line-width:2;
+    polygon-opacity:0.5;
+          text-face-name:@font_reg;
+  text-name:"[BLOCKNUM]";
+  text-fill:#036;
+  text-size: 16;
+  text-halo-fill: fadeout(white, 30%);
+  text-halo-radius: 2.5;
+   
+}
+  
+  
+  
+  [WORKINGARE="150"] { 
+    
+    polygon-fill:@yellow;
+      line-color:@yellow;
+  line-width:2;
+    polygon-opacity:0.5;
+  text-face-name:@font_reg;
+  text-name:"[BLOCKNUM]";
+  text-fill: #036;
+  text-size: 16;
+  text-halo-fill: fadeout(white, 30%);
+  text-halo-radius: 2.5;
+  }
+}
+
+
+
+
+
+
